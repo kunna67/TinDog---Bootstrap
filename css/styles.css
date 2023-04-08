@@ -1,0 +1,185 @@
+body{
+    font-family: 'Montserrat';
+    text-align: center;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: "Montserrat", sans-serif;    
+}
+
+p{
+    color: #8f8f8f;
+}
+
+/*Classes*/
+.big-heading{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+.featuredItems
+{
+    color: #ef8172;
+    padding-bottom: 1.9rem;
+}
+
+.featuredItems:hover{
+    color:#ff4c68;
+}
+
+.feature-box{
+    padding: 5%;
+}
+
+.testimonial-text{
+    font-size: 3rem;
+    line-height: 1.5;    
+}
+
+.website-features{
+    font-size: 1.5rem;
+}
+
+.testimonial-image{
+    width:20%;
+    border-radius: 100%;
+    margin: 100px;
+}
+
+.carousel-item{
+    padding: 7% 15%;
+}
+
+.chi,.lab{
+    padding-bottom: 6.2%;
+}
+
+.sp{
+    padding-bottom: 11%;
+}
+
+.pricing-column{
+    padding: 3% 2%;
+}
+
+.section-heading{
+    font-size: 3rem;
+    line-height: 1.5;    
+}
+
+.price-text{
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.dog-breed{
+    font-size: 1.5rem;
+}
+
+.ra{
+    font-family: 'Montserrat';
+    color: #fff;
+    font-size: 3rem;
+    line-height: 1.5;
+    padding-top: 5rem;
+    padding-bottom: 6rem;    
+}
+
+.cont{
+    padding: 5% 7%;
+}
+
+.navbar{
+    padding:0 0 4.5rem;
+}
+
+.navbar-brand{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.nav-item{
+    padding: 0 18px;
+}
+
+.nav-link{
+    font-size:1.2 rem;
+    font-family: 'Montserrat';
+}
+
+.download-button{
+    margin: 5% 3% 5% 0;
+}
+
+.container-fluid{
+    padding: 3% 15% 7%; /*if 2 values-> top-bottom  left-right|if 3 values-> top left-right bottom */
+}
+
+.rotated{
+    transform: rotate(25deg); 
+    width:20%;
+    position: absolute;    
+    right: 25%;
+}
+
+.last-icons{
+    padding: 10px;
+}
+
+.press-logo{
+    width:15%;
+    margin:0 20px 10px 5px;
+}
+
+/*IDs*/
+#title{
+    background-color: #ff4c68;
+    color: #fff;
+}
+
+#pricing{
+    padding: 100px;
+}
+
+#features{
+    padding:7% 15%;
+    background-color: #fff;
+    position: relative;
+    z-index: 1;
+}
+
+#testimonials{
+    padding: 10% 15%;
+    background-color: #ef8172;
+    color: #fff;
+    padding-bottom: 0;
+}
+
+#press{
+    background-color: #ef8172;
+    padding-bottom: 3%;
+}
+
+#cta{
+    background-color: #ff4c68;
+    padding: 7% 15%;
+}
+
+#footer{
+    line-height: 2rem;
+}
+
+/*media query breakpoint*/
+@media (max-width:1030px){
+    .rotated{
+        position: static;
+        width: 48%;
+        transform: rotate(0);
+    }
+
+    #title{
+        text-align: center;
+    }
+}
